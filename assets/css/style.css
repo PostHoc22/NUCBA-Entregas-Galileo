@@ -43,7 +43,7 @@ font-family: 'Rubik', sans-serif; */
 
 /* header inicio */
 header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -63,6 +63,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: min-content;
 }
 
 .navbar-list li a {
@@ -82,7 +84,7 @@ header {
 .cart-icon,
 .bx bxs-cart {
   color: var(--cart-icon);
-  font-size: 40px;
+  font-size: 33px;
   height: min-content;
   width: min-content;
   margin-right: 10px;
