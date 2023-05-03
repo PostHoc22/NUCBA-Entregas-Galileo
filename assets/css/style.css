@@ -48,6 +48,8 @@ header {
   align-items: center;
   justify-content: space-around;
   background-color: var(--background-nav);
+  position: fixed;
+  top: 0;
 }
 
 .logo {
